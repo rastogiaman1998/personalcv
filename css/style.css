@@ -80,6 +80,8 @@ body{
 }
 
 
+
+/*-------------------------------------- responsiveness-------------------------------------  */
 @media only screen and (max-width: 1200px){
   .img {
       max-width: 450px;
@@ -88,13 +90,22 @@ body{
   }
   } 
 
-
-
-
-  
-  @media only screen and (max-width: 986px){
+  @media (max-width:991px){
     .img {
         max-width: 350px;
+        height: 400px;
+
+        
+    }
+    .email{
+font-size: small;
+    }
+  }
+
+  
+  @media  (max-width: 986px){
+    .img {
+        max-width: 325px;
         height: 400px;
 
         
@@ -114,7 +125,7 @@ body{
         font-size: 10px;
       }
       }
-      @media only screen and (max-width: 754px){
+      @media only screen and (max-width: 767px){
         .img {
             max-width: 350px;
             height: auto;
@@ -168,3 +179,5 @@ body{
 .clearfix{
   margin-top: 30px;
 }
+
+/*-------------------------------------- responsiveness-------------------------------------  */
