@@ -85,28 +85,49 @@ body{
   text-align: center;
 }
 
-@media only screen and (max-width: 1024px){
-.img {
-    max-width: 350px;
-    height: auto;
-    margin-left: 60px;
-}
-}
-  
-  @media only screen and (max-width: 360px){
+
+@media only screen and (max-width: 1200px){
   .img {
-      max-width: 250;
+      max-width: 450px;
       height: auto;
-      margin-left: 30px;
+      
+  }
+  } 
+
+  @media only screen and (max-width: 640px){
+    .img {
+        max-width: 350px;
+        height: auto;
+        
+    }
+    }
+
+
+
+  @media only screen and (max-width: 500px){
+  .img {
+      max-width: 250px;
+      height: auto;
+      margin-left: 50px;
   }
 }
 @media only screen and (max-width: 400px){
   .img {
-      max-width: 250;
+      max-width: 250px;
       height: auto;
       margin-left: 30px;
   }
 }
+
+
+@media only screen and (max-width: 300px){
+  .img {
+      max-width: 190px;
+      height: auto;
+      margin-left: 10px;
+  }
+}
+
 @media only screen and (max-width: 250px){
   .img {
       max-width: 190px;
