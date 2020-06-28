@@ -92,17 +92,36 @@ body{
 
 
   
-  @media only screen and (max-width: 970px){
+  @media only screen and (max-width: 986px){
     .img {
         max-width: 350px;
-        height: auto;
+        height: 400px;
+
         
     }
+    .email{
+      font-size: small;
+    }
     }
 
-
-
-
+    @media only screen and (max-width: 800px){
+      .img {
+          max-width: 350px;
+          height: 450px;
+          
+      }
+      .p{
+        font-size: 10px;
+      }
+      }
+      @media only screen and (max-width: 754px){
+        .img {
+            max-width: 350px;
+            height: auto;
+            margin-left: 15%;
+            
+        }
+      }
 
 
   @media only screen and (max-width: 640px){
