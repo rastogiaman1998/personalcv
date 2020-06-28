@@ -85,19 +85,12 @@ body{
   text-align: center;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 1024px){
 .img {
     max-width: 350px;
     height: auto;
     margin-left: 60px;
 }
-}
-@media only screen and (max-width: 375px){
-  .img {
-      max-width: 250;
-      height: auto;
-      margin-left: 30px;
-  }
 }
   
   @media only screen and (max-width: 360px){
@@ -107,7 +100,20 @@ body{
       margin-left: 30px;
   }
 }
-
+@media only screen and (max-width: 400px){
+  .img {
+      max-width: 250;
+      height: auto;
+      margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 250px){
+  .img {
+      max-width: 190px;
+      height: auto;
+      margin-left: 0px;
+  }
+}
 .clearfix{
   margin-top: 30px;
 }
